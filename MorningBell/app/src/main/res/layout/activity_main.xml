@@ -5,9 +5,10 @@
     android:id="@+id/dhf"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_margin="5dp"
     android:background="#0B0F20"
+    android:elevation="0dp"
     tools:context=".MainActivity">
+
 
     <androidx.cardview.widget.CardView
         android:id="@+id/cardView"
@@ -17,24 +18,21 @@
         android:layout_marginTop="50dp"
         android:layout_marginEnd="32dp"
         android:background="@color/colorPrimaryDark"
-        app:cardBackgroundColor="@color/white"
+        app:cardBackgroundColor="#D70B0F20"
         app:cardCornerRadius="35dp"
-        app:cardElevation="10dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
         <TimePicker
             android:id="@+id/et_setTime"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:ems="10"
-            android:gravity="center"
-            android:hint="Select Time"
-            android:minHeight="48dp"
+            android:textColor="@color/white"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
+
 
 
     </androidx.cardview.widget.CardView>
@@ -55,6 +53,18 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/cardView" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rc"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnSavetime" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
