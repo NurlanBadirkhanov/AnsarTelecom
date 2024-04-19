@@ -2,4 +2,40 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="selectedColor">#00FF00</color>
+    <color name="blue_y">#0F1C4C</color>
+    <color name="blue">#000B33</color>
+    <color name="profileFrag">#0F1C4C</color>
+
+    <color name="buttonColor">#C9008C00</color>
+
+    <color name="signInFrag">#F9C03F</color>
+    <color name="signUpFrag">#142448</color>
+    <color name="textInputBoxColor">#2196F3</color> <!-- Яркий синий -->
+    <color name="textInputHintColor">#757575</color> <!-- Серый -->
+    <color name="search_text_color">#000000</color>
+
+    <color name="рbuttonColor">#006149</color>
+    <color name="gray">#009688</color>
+
+    <color name="Student_Color">#DDF6FA</color>
+    <color name="Makler_Color">#ECFADD</color>
+    <color name="policy">#CDCDCD</color>
+
+    <color name="home_color">#AFAFAF</color>
+    <color name="light_blue_600">#FF039BE5</color>
+    <color name="light_blue_900">#FF01579B</color>
+    <color name="light_blue_A200">#FF40C4FF</color>
+    <color name="light_blue_A400">#FF00B0FF</color>
+    <color name="black_overlay">#66000000</color>
+    <color name="blue_bytf">#121F28</color>
+    <color name="we">#EDEDED</color>
+    ///Ру
+    <color name="ruStoreDark">#1B1C20</color>
+    <color name="navRuDark"> #282B30</color>
+    <color name="navRuLight"> #F3EDF7</color>
+
+
+    <color name="vectorFillNight">@android:color/black</color>
+
 </resources>
